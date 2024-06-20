@@ -124,7 +124,8 @@ body {
   border-bottom-right-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 
-  background-color: #0f071d;
+  background-color: #0e0224;
+  /* background-color: #0f071d; */
 }
 
 .header__nav {
