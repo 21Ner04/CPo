@@ -1,0 +1,46 @@
+{
+  "name": "luna-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:local": "APP_ENV=local next build",
+    "build:dev": "APP_ENV=dev next build",
+    "build:prod": "APP_ENV=prod next build",
+    "deploy:local": "npm run build:local && pm2 start pm2.config.js --env local",
+    "deploy:dev": "npm run build:dev && pm2 start pm2.config.js --env dev",
+    "deploy:prod": "npm run build:prod && pm2 start pm2.config.js --env prod"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "clsx": "^2.0.0",
+    "mapbox-gl": "^3.0.0-beta.1",
+    "next": "14.0.3",
+    "pm2": "^5.3.0",
+    "react": "^18",
+    "react-cookie": "^6.1.1",
+    "react-dom": "^18",
+    "react-scroll": "^1.9.0",
+    "react-sticky-box": "^2.0.5",
+    "sharp": "^0.32.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^2.7.19",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "prettier": "3.1.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
