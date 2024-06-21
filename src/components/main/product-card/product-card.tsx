@@ -123,28 +123,6 @@ export default function ProductCard({ id }: { id: string }) {
                   <p className="value"><strong>{weightSm} гр</strong></p>
                 </div>
               </div>
-              {/* <div
-                className={clsx("product-feature", {
-                  "product-feature-hidden": isMeatless === true,
-                })}
-              >
-                <div className="product-feature__icon">
-                  <MeatIcon />
-                </div>
-                <div className="product-feature__description">
-                  <span className="title">Мясная начинка</span>
-                  <p className="value"><strong>{Math.round(meatWeightSm! / weightSm! * 100)}% - {meatWeightSm} гр</strong></p>
-                </div>
-              </div> */}
-              {/* <div className="product-feature">
-                <div className="product-feature__icon">
-                  <CheeseIcon />
-                </div>
-                <div className="product-feature__description">
-                  <span className="title">Cырная начинка</span>
-                  <p className="value"><strong>{Math.round(cheeseWeightSm! / weightSm! * 100)}% - {cheeseWeightSm} гр</strong></p>
-                </div>
-              </div> */}
               <div className="product-feature">
                 <div className="product-feature__icon">
                   <PriceIcon />
@@ -192,28 +170,6 @@ export default function ProductCard({ id }: { id: string }) {
                   <p className="value"><strong>{weightLg} гр</strong></p>
                 </div>
               </div>
-              {/* <div
-                className={clsx("product-feature", {
-                  "product-feature-hidden": isMeatless === true,
-                })}
-              >
-                <div className="product-feature__icon">
-                  <MeatIcon />
-                </div>
-                <div className="product-feature__description">
-                  <span className="title">Мясная начинка</span>
-                  <p className="value"><strong>{Math.round(meatWeightLg! / weightLg! * 100)}% - {meatWeightLg} гр</strong></p>
-                </div>
-              </div> */}
-              {/* <div className="product-feature">
-                <div className="product-feature__icon">
-                  <CheeseIcon />
-                </div>
-                <div className="product-feature__description">
-                  <span className="title">Cырная начинка</span>
-                  <p className="value"><strong>{Math.round(cheeseWeightLg! / weightLg! * 100)}% - {cheeseWeightLg} гр</strong></p>
-                </div>
-              </div> */}
               <div className="product-feature">
                 <div className="product-feature__icon">
                   <PriceIcon />
