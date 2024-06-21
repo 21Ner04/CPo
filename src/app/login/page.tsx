@@ -14,7 +14,7 @@ export default function LoginPage() {
   return (
     <>
       <Header />
-      <h1>Личный кабинет ЛунаФуд</h1>
+      <h1>Личный кабинет PizzaPalace</h1>
       <h2>Войти в личный кабинет</h2>
       <Footer />
     </>
