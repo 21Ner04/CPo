@@ -978,33 +978,6 @@ body {
   z-index: 1;
 }
 
-.product-modal__description .promo.visible {
-  display: flex;
-}
-
-.product-modal__description .promo.top-rate {
-  color: #7f7830;
-  background: #ffec60;
-  background: linear-gradient(315deg, #ffec60 0%, #f4ff60 100%);
-}
-
-.product-modal__description .promo.meatless {
-  color: #417f30;
-  background: #d2ff60;
-  background: linear-gradient(315deg, #d2ff60 0%, #b5ff60 100%);
-}
-.product-modal__description .promo.profit {
-  color: #fff;
-  background: #c260ff;
-  background: linear-gradient(315deg, #c260ff 0%, #9260ff 100%);
-}
-
-.product-modal__description .promo.new {
-  color: #fff;
-  background: #ff6060;
-  background: linear-gradient(90deg, #ff6060 0%, #ff7360 100%);
-}
-
 .product-feature {
   display: flex;
   flex-direction: row;
