@@ -89,7 +89,7 @@ export default function HomePageProducts() {
                     onClick={() => {
                       openModal(<HomePageProductModal id={id} />)
                     }}
-                    alt={`Пицца ${name} с бесплатной доставкой в СПб от пиццерии Pizza`}
+                    alt={`Пицца ${name} с бесплатной доставкой в СПб от пиццерии Pizza Palace`}
                   />
                 </div>
                 <div className="card-content">
