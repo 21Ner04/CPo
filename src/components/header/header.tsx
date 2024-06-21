@@ -48,7 +48,7 @@ export default function Header() {
               "current-path": pathName === "/",
             })}
           >
-            Главная<span className="sr-only">страница сайта пиццерии Лунафуд</span>
+            Главная<span className="sr-only">страница сайта пиццерии PizzaPalace</span>
           </Link>
           <Link
             href="/promo"
@@ -56,7 +56,7 @@ export default function Header() {
               "current-path": pathName === "/promo",
             })}
           >
-            Акции<span className="sr-only">и скидки в пиццерии Лунафуд</span>
+            Акции<span className="sr-only">и скидки в пиццерии PizzaPalace</span>
           </Link>
           <Link
             href="/contacts"
@@ -64,7 +64,7 @@ export default function Header() {
               "current-path": pathName === "/contacts",
             })}
           >
-            Контакты<span className="sr-only">пиццерии Лунафуд</span>
+            Контакты<span className="sr-only">пиццерии PizzaPalace</span>
           </Link>
           <Link
             href="/work"
@@ -72,7 +72,7 @@ export default function Header() {
               "current-path": pathName === "/work",
             })}
           >
-            Работа в ЛунаФуд
+            Работа в PizzaPalace
           </Link>
           <Link
             href="/about"
@@ -80,7 +80,7 @@ export default function Header() {
               "current-path": pathName === "/about",
             })}
           >
-            О нас<span className="sr-only">Информация о пиццерии ЛунаФуд</span>
+            О нас<span className="sr-only">Информация о пиццерии PizzaPalace</span>
           </Link>
         </Popover.Group>
         <div className="header__nav__desktop-menu">
